@@ -128,19 +128,19 @@ Chain → Streaming buffer → Stream processor → Columnar DB → APIs
 
 # Why This Matters for Wallets
 
-### User-facing improvements
+### User-facing
 
-- **Instant tx feedback:** Balance updates as blocks land, not after next poll
-- **Live portfolio:** Real-time token prices × holdings across chains
-- **Proactive alerts:** Push notifications on inbound funds, liquidations, NFT sales
-- **Transaction enrichment:** Decode smart contracts, add labels/tags, explain "what happened"
-- **Cross-chain grouping:** Unified view of bridged assets, related txs across L1/L2s
+- **Instant tx feedback:** Balance updates as blocks land
+- **Live portfolio:** Real-time prices × holdings across chains
+- **Proactive alerts:** Push on inbound funds, liquidations, NFT sales
+- **Tx enrichment:** Decode contracts, labels/tags, explain "what happened"
+- **Cross-chain grouping:** Unified view of bridged assets across L1/L2s
 
-### Internal / product improvements
+### Internal
 
-- **Fast analytics:** ClickHouse handles "all txs for user X in 2024" in milliseconds
-- **Simpler multi-chain:** Same streaming pattern scales to new chains
-- **Better debugging:** Replay events from the log; deterministic reprocessing
+- **Fast analytics:** "All txs for user X in 2024" in milliseconds
+- **Simpler multi-chain:** Same pattern scales to new chains
+- **Better debugging:** Replay from the log; deterministic reprocessing
 
 ---
 
